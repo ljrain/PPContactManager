@@ -1,0 +1,8 @@
+<virtualentitymetadata extensionofrecordid.logicalname="ljr_issuetracker">
+  <ischangedfieldsenabledforupdateevent>1</ischangedfieldsenabledforupdateevent>
+  <iscustomizable>1</iscustomizable>
+  <isonexternalcreatedenabled>1</isonexternalcreatedenabled>
+  <isonexternaldeletedenabled>1</isonexternaldeletedenabled>
+  <isonexternalupdatedenabled>1</isonexternalupdatedenabled>
+  <name>Issue Trackers</name>
+</virtualentitymetadata>
