@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23012.182" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23023.198" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>PPContactManager</UniqueName>
     <LocalizedNames>
@@ -89,27 +89,27 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.141)" />
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.168)" />
         <Dependent type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.141)" />
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.168)" />
         <Dependent type="62" schemaName="ljr_EnvironmentVariables" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.141)" />
+        <Required type="1" schemaName="environmentvariabledefinition" displayName="Environment Variable Definition" solution="EnvironmentVariables (1.0.2.168)" />
         <Dependent type="80" schemaName="ljr_EnvironmentVariables" displayName="Environment Variables" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.141)" />
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.168)" />
         <Dependent type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.141)" />
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.168)" />
         <Dependent type="62" schemaName="ljr_EnvironmentVariables" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.141)" />
+        <Required type="1" schemaName="environmentvariablevalue" displayName="Environment Variable Value" solution="EnvironmentVariables (1.0.2.168)" />
         <Dependent type="80" schemaName="ljr_EnvironmentVariables" displayName="Environment Variables" />
       </MissingDependency>
       <MissingDependency>
