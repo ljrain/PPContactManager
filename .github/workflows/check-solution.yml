@@ -24,10 +24,9 @@ on:
        required: true
        default: solutions/
 
-     
-
 permissions:
   contents: write
+
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://lou-gcc-dev.crm9.dynamics.com/'
@@ -57,6 +56,16 @@ jobs:
         app-id: ${{env.CLIENT_ID}}
         client-secret: ${{ secrets.PowerPlatformSPN }}
         tenant-id: ${{env.TENANT_ID}}
+        
+    - name: export-solution action
+      uses: microsoft/powerplatform-actions/export-solution@v0
+      with:
+        environment-url: ${{env.ENVIRONMENT_URL}}
+        app-id: ${{env.CLIENT_ID}}
+        client-secret: ${{ secrets.PowerPlatformSPN }}
+        tenant-id: ${{env.TENANT_ID}}
+        solution-name: ${{ github.event.inputs.solution_name }}
+        solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip        
 
     - name: check-solution
       uses: microsoft/powerplatform-actions/check-solution@v0
@@ -66,7 +75,7 @@ jobs:
         client-secret: ${{ secrets.PowerPlatformSPN }}
         tenant-id: ${{env.TENANT_ID}}
         cloud: 'Public'
-        path: '**/*.zip'
+        path: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip 
         geo: 'UnitedStates'
         rule-level-override: '[{"Id":"meta-remove-dup-reg","OverrideLevel":"Medium"},{"Id":"il-avoid-specialized-update-ops","OverrideLevel":"Medium"}]'
         checker-logs-artifact-name: 'CheckSolutionLogs\'
