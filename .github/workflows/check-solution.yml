@@ -1,4 +1,4 @@
-name: export-check-branch-solution
+name: check-solution
 # Export solution from DEV environment and run a check solution
 #  export solution, check solution, unpack it and prepare, commit and push a git branch with the changes
 
