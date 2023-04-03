@@ -77,5 +77,5 @@ jobs:
         cloud: 'UsGov'
         path: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip 
         geo: 'USGovernment'
-        rule-level-override: '[{"Id":"meta-remove-dup-reg","OverrideLevel":"Medium"},{"Id":"il-avoid-specialized-update-ops","OverrideLevel":"Medium"}]'
-        checker-logs-artifact-name: 'CheckSolutionLogs\'
+        #rule-level-override: '[{"Id":"meta-remove-dup-reg","OverrideLevel":"Medium"},{"Id":"il-avoid-specialized-update-ops","OverrideLevel":"Medium"}]'
+        #checker-logs-artifact-name: 'CheckSolutionLogs\'
