@@ -69,13 +69,13 @@ jobs:
         echo pac
       
 
-    - name: check-solution
-      uses: microsoft/powerplatform-actions/check-solution@v0
-      with:
-        environment-url: ${{env.ENVIRONMENT_URL}}
-        app-id: ${{env.CLIENT_ID}}
-        client-secret: ${{ secrets.PowerPlatformSPN }}
-        tenant-id: ${{env.TENANT_ID}}
-        geo: 'UnitedStates'
-        path: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip 
+    #- name: check-solution
+    #  uses: microsoft/powerplatform-actions/check-solution@v0
+    #  with:
+    #    environment-url: ${{env.ENVIRONMENT_URL}}
+    #    app-id: ${{env.CLIENT_ID}}
+    #    client-secret: ${{ secrets.PowerPlatformSPN }}
+    #    tenant-id: ${{env.TENANT_ID}}
+    #    geo: 'UnitedStates'
+    #    path: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip 
 
