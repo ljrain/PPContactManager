@@ -61,6 +61,8 @@ jobs:
         tenant-id: ${{env.TENANT_ID}}
         solution-name: ${{ github.event.inputs.solution_name }}
         solution-output-file: ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip        
+    - name: write-to-console
+      run: echo ${{ github.event.inputs.solution_exported_folder}}/${{ github.event.inputs.solution_name }}.zip 
 
     - name: check-solution
       uses: microsoft/powerplatform-actions/check-solution@v0
