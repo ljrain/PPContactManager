@@ -1,6 +1,5 @@
 name: check-solution
 # Export solution from DEV environment and run a check solution
-#  export solution, check solution, unpack it and prepare, commit and push a git branch with the changes
 
 on:
   workflow_dispatch:
@@ -32,10 +31,6 @@ env:
   ENVIRONMENT_URL: 'https://lou-gcc-dev.crm9.dynamics.com/'
   CLIENT_ID: '70dbbbb5-71bd-45d5-a23b-f23149d30c73'
   TENANT_ID: 'c0daba30-fba7-4669-a2fc-36142728b7e9'
-  CLOUD: 'Public'
-  GEO: 'UnitedStates'
-  RULE_LEVEL_OVERRIDE: '[{"Id":"meta-remove-dup-reg","OverrideLevel":"Medium"},{"Id":"il-avoid-specialized-update-ops","OverrideLevel":"Medium"}]'
-  CHECKER_LOGS-ARTIFACT-NAME: 'CheckSolutionLogs\'
 
 jobs:
   export-from-dev:
