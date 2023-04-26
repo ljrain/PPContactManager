@@ -24,6 +24,16 @@
       <statecode>0</statecode>
       <statuscode>1</statuscode>
     </msdyn_helppage>
+    <msdyn_helppage msdyn_helppageid="6479a829-04d3-ed11-b596-001dd804fc2b">
+      <iscustomizable>1</iscustomizable>
+      <msdyn_content>&lt;pphml&gt;&lt;h1&gt;Contact Edit Form&lt;/h1&gt;&lt;p&gt;This is the contact main form.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;Enter First&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Enter Last Name&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;balloon target="[data-id=&amp;quot;jobtitle.fieldControl-text-box-text&amp;quot;]" title="Job Title" details="Please make sure you enter a valid job title."&gt;Job Title&lt;/balloon&gt;&lt;/p&gt;&lt;p&gt;&lt;balloon target="[data-id=&amp;quot;jobtitle.fieldControl-text-box-text&amp;quot;]" title="Job Title" details="Please make sure you enter a valid job title."&gt;&lt;/balloon&gt;&lt;/p&gt;&lt;p&gt;&lt;balloon target="[data-id=&amp;quot;jobtitle.fieldControl-text-box-text&amp;quot;]" title="Job Title" details="Please make sure you enter a valid job title."&gt;&lt;/balloon&gt;&lt;/p&gt;&lt;collapsible title="Company Information"&gt;&lt;p&gt;Company Details here please.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Test Build&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/collapsible&gt;&lt;p&gt;&lt;/p&gt;&lt;/pphml&gt;</msdyn_content>
+      <msdyn_contenttype>text/pphml</msdyn_contenttype>
+      <msdyn_displayname>Contact Edit Form</msdyn_displayname>
+      <msdyn_locale>1033</msdyn_locale>
+      <msdyn_path>CDS/Apps/ljr_BasicAccountManager/Entities/contact/Forms/Default</msdyn_path>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </msdyn_helppage>
     <msdyn_helppage msdyn_helppageid="98ebe056-1cd2-ed11-b596-001dd804fc2b">
       <iscustomizable>1</iscustomizable>
       <msdyn_content>&lt;pphml&gt;&lt;h1&gt;Basic Account Manager&lt;/h1&gt;&lt;p&gt;The Basic Account Manager app provides a way to quickly manage accounts.&lt;/p&gt;&lt;collapsible title="Summary"&gt;&lt;p&gt;This app consists of the two components listed below:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Accounts&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Contacts&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/collapsible&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;collapsible title="Navigation"&gt;&lt;p&gt;&lt;balloon target="[data-lp-id=&amp;quot;sitemap-entity-Home_8E2112DC-AD90-40F5-BEBE-0A8D80785D75&amp;quot;]" title="Home" details="Navigate to the home page"&gt;Home&lt;/balloon&gt;&lt;/p&gt;&lt;p&gt;&lt;balloon target="[data-lp-id=&amp;quot;sitemap-entity-Recent_1A318AE1-712D-4D32-9E91-E936327E3256&amp;quot;]" title="Recent" details="Navigate to the recent items"&gt;Recent&lt;/balloon&gt;&lt;/p&gt;&lt;p&gt;&lt;balloon target="[data-lp-id=&amp;quot;sitemap-entity-Pinned_25F78F30-46FC-42CC-B7E6-DED04C375F62&amp;quot;]" title="Pinned" details="Navigate to view pinned items"&gt;Pinned&lt;/balloon&gt;&lt;balloon target="[data-lp-id=&amp;quot;sitemap-entity-Recent_1A318AE1-712D-4D32-9E91-E936327E3256&amp;quot;]" title="Recent" details="Navigate to the recent items"&gt;&lt;/balloon&gt;&lt;balloon target="[data-lp-id=&amp;quot;sitemap-entity-Home_8E2112DC-AD90-40F5-BEBE-0A8D80785D75&amp;quot;]" title="Home" details="Navigate to the home page"&gt;&lt;/balloon&gt;&lt;/p&gt;&lt;/collapsible&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;collapsible title="References" collapsed="true"&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-custom-help-pages" target="_blank"&gt;Create guided help for your Unified Interface app&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://powerapps.microsoft.com/en-us/blog/public-preview-of-custom-help-panes-formerly-learning-path-for-uci/" target="_blank"&gt;Public Preview of Custom Help Panes (formerly Learning Path) for Unified Interface&lt;/a&gt;&lt;a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-custom-help-pages" target="_blank"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-custom-help-pages" target="_blank"&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-custom-help-pages" target="_blank"&gt;&lt;/a&gt;&lt;a href="https://learn.microsoft.com/en-us/power-apps/maker/data-platform/create-custom-help-pages"&gt;&lt;/a&gt;&lt;/p&gt;&lt;/collapsible&gt;&lt;p&gt;&lt;/p&gt;&lt;video src="https://www.youtube.com/watch?v=hqQVkPeo5_Q&amp;amp;t=18s" allowFullScreen="true"&gt;&lt;/video&gt;&lt;p&gt;&lt;/p&gt;&lt;/pphml&gt;</msdyn_content>
@@ -41,6 +51,16 @@
       <msdyn_displayname>Main Help Page</msdyn_displayname>
       <msdyn_locale>1033</msdyn_locale>
       <msdyn_path>CDS/Apps/ljr_ContactManager/Entities/account/Views/Default</msdyn_path>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </msdyn_helppage>
+    <msdyn_helppage msdyn_helppageid="f3559e76-46d2-ed11-b596-001dd804fc2b">
+      <iscustomizable>1</iscustomizable>
+      <msdyn_content>&lt;pphml&gt;&lt;h1&gt;Contact View Help&lt;/h1&gt;&lt;p&gt;This is help.&lt;/p&gt;&lt;/pphml&gt;</msdyn_content>
+      <msdyn_contenttype>text/pphml</msdyn_contenttype>
+      <msdyn_displayname>Contact View Help</msdyn_displayname>
+      <msdyn_locale>1033</msdyn_locale>
+      <msdyn_path>CDS/Apps/ljr_BasicAccountManager/Entities/contact/Views/Default</msdyn_path>
       <statecode>0</statecode>
       <statuscode>1</statuscode>
     </msdyn_helppage>
