@@ -21,4 +21,13 @@
   <LocalizedNames>
     <LocalizedName description="Contact Manager" languagecode="1033" />
   </LocalizedNames>
+  <appelements>
+    <appelement uniquename="ljr_ljr_ContactManager_canvasappid_ljr_welcomepage_fd170">
+      <canvasappid>
+        <name>ljr_welcomepage_fd170</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>ljr_ljr_ContactManager_canvasappid_ljr_welcomepage_fd170</name>
+    </appelement>
+  </appelements>
 </AppModule>
