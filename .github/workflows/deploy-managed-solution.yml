@@ -12,7 +12,7 @@ on:
       destination_environment_url:
         description: 'Url of the Power Platform Environment to deploy to'
         required: true
-        default: 'lou-gcc-test.crm9.dynamics.com'
+        default: 'https://lou-gcc-test.crm9.dynamics.com'
 
 permissions:
   contents: write
