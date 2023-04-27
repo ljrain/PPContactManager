@@ -8,7 +8,7 @@ on:
       solution_name:
         description: 'name of the solution to worked on from Power Platform'
         required: true
-        default: ALMLab
+        default: PPContactManager
       destination_environment_url:
         description: 'Url of the Power Platform Environment to deploy to'
         required: true
