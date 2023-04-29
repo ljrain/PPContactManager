@@ -40,4 +40,8 @@ jobs:
       with:
         xml-file: ${{ env.SOLUTION_FILE_PATH }}
         xpath: '//Version'
+        
+    - name: write-out-version
+      shell: bash
+      run: echo ${{ steps.getxml.outputs.info }}
 
