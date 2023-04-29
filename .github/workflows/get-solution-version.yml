@@ -44,4 +44,15 @@ jobs:
     - name: write-out-version
       shell: bash
       run: echo ${{ steps.getxml.outputs.info }}
+      
+    - name: create-draft-release
+      id: draft-release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: "${{ steps.getxml.outputs.info }}"
+        release_name: "${{ steps.getxml.outputs.info }}"
+        draft: true
+        prerelease: false
 
