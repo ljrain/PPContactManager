@@ -51,8 +51,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: "${{ steps.getxml.outputs.info }}"
-        release_name: "${{ steps.getxml.outputs.info }}"
+        tag_name: "ver_${{ steps.getxml.outputs.info }}"
+        release_name: "ver_${{ steps.getxml.outputs.info }}"
         draft: true
         prerelease: false
 
