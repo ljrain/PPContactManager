@@ -1,0 +1,28 @@
+name: get-solution-version
+# opens the solution.xml file located at solutions/PPContactManager/Other/Solution.xml
+# ImportExportXml\SolutionManifest\Version
+
+#<ImportExportXml >
+#  <SolutionManifest>
+#    <UniqueName>PPContactManager</UniqueName>
+#    <LocalizedNames>
+#      <LocalizedName description="PP Contact Manager" languagecode="1033" />
+#    </LocalizedNames>
+#    <Descriptions />
+#    <Version>1.9.0.0</Version>
+
+env:
+  SOLUTION_FILE_PATH: 'solutions/PPContactManager/Other/Solution.xml'
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+    uses: actions/checkout@v1
+    - name: Get XML
+      id: getxml
+      uses: mavrosxristoforos/get-xml-info@1.0
+      with:
+        xml-file: ${{ env.SOLUTION_FILE_PATH }}
+        xpath: '//Version'
