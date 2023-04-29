@@ -11,18 +11,33 @@ name: get-solution-version
 #    <Descriptions />
 #    <Version>1.9.0.0</Version>
 
+on:
+  workflow_dispatch:
+    inputs:
+      solution_name:
+        description: 'Path to the solution file'
+        required: true
+        default: 'solutions/PPContactManager/Other/Solution.xml'
+
 env:
   SOLUTION_FILE_PATH: 'solutions/PPContactManager/Other/Solution.xml'
-    
+
 jobs:
-  build:
+  get-solution-version:
     runs-on: ubuntu-latest
+    # or you can say runs-on: ubuntu-latest
+    env:
+      RUNNER_DEBUG: 1
+
     steps:
-    - name: Checkout
-    uses: actions/checkout@v1
-    - name: Get XML
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+
+    - name: get-solution-version-from-xml
       id: getxml
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: ${{ env.SOLUTION_FILE_PATH }}
         xpath: '//Version'
+      
